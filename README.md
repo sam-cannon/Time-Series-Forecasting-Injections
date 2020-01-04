@@ -1,17 +1,17 @@
 # Predicting Injections Per Day
-Business Problem
+## Business Problem
 
  
 
 I work for a large private medical practice located in Mississippi that has just begun to realize the potential of the data they have access to. A program was created at this practice in 2016 to begin administering allergy medications in the form of shots to patients who were coming to the clinic. These shots are administered by nurses who are scheduled to be at the clinic during the hours of operation (7:30 AM - 4:30 PM). Up to this point, the nurses have been staffed arbitrarily, with no attention being paid to the number of nurses scheduled on a given day. Scheduling the nurses in shifts in this manner has led to several problems, primarily:
 
-Nurses are over-scheduled, meaning there are too many nurses on staff during these hours, leading to loss in revenue 
+- Nurses are over-scheduled, meaning there are too many nurses on staff during these hours, leading to loss in revenue 
 
-Nurses are under-staffed, patients are not receiving the best care because the nursing staff is not prepared to handle a larger influx of patients
+- Nurses are under-staffed, patients are not receiving the best care because the nursing staff is not prepared to handle a larger influx of patients
 
  
 
-The Data
+## The Data
 
  
 
@@ -19,7 +19,7 @@ Data for this problem will be drawn from a Microsoft SQL Server over a period da
 
  
 
-Practical Implications
+## Practical Implications
 
  
 
