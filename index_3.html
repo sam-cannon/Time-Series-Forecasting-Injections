@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"></html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <script src="assets/code.js"></script>
+  <title>Heading</title>
+</head>
+
+<body>
+  <body>
+    <br>
+    <a href="index_3.html"><img class="logo" src="assets/final_v1.png" alt=""></a>
+    <br>
+    <div class="container main">
+  <div class="jumbotron" id="holder">
+    <h2 class='main_heading'>MAAC Jackson Clinic Injection Predictions</h2>
+    <br>
+    <div class="instructions">
+      <h4>Instructions: </h4>
+      <p>1. Enter a date below (i.e. "2020-02-01")</p>
+      <p>2. Press 'Predict Injections' to get predictions</p>
+ <div class="login">
+
+     <!-- Main Input For Receiving Query to our ML -->
+     <form action="{{ url_for('predict')}}"method="post">
+    	<input type="text" name="date" placeholder="date" required="required" />
+        
+
+
+        <button type="submit" class="button btn btn-default">Predict Injections</button>
+    </form>
+
+   <br>
+   <br>
+   {{ prediction_text }}
+
+ </div>
+
+
+</body>
+</html>
